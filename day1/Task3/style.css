@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+body {
+  height: 100vh;
+  background-color:rgb(34, 26, 4) ;
+}
+
+header {
+  width: 100%;
+}
+
+.nav {
+  width: 90%;
+  padding-block: 25px;
+  margin: 0 auto;
+}
+
+.nav .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav .content .nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.ach{
+  color: wheat;
+  opacity: 0.6;
+}
+
+#home {
+  color: white;
+}
+
+.order-btn, .read-btn {
+  padding: 12px 36px 12px 36px;
+  background-color: rgb(234, 54, 54);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* main   */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container .inner-cont {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2rem;
+  width: 25%;
+  color: aliceblue;
+  
+}
+
+.inner-cont p {
+  margin-top: 20px;
+  width: 70%;
+  color: aliceblue;
+  /* font-size: 0.9rem; */
+}
+
+.justice {
+  margin-top: 80px;
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.low-btn {
+  float: right;
+  cursor: pointer;
+}
+
+.lefti {
+  color:rgb(42, 30, 1);
+}
