@@ -16,9 +16,9 @@ a {
 header {
   background-color: #3B0DFA;
   padding: 20px 40px;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 
 .navbar {
@@ -63,34 +63,7 @@ nav a {
   padding-left: 40px;
   background-color: #3B0DFA;
   color: white;
-  flex-wrap: wrap;
-}
-
-.hero-text {
-  flex: 1;
-  max-width: 50%;
-}
-
-.hero-text h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.hero-text p {
-  font-size: 16px;
-}
-
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  /* flex-wrap: wrap; */
 }
 
 .hero-left {
@@ -110,15 +83,6 @@ nav a {
   position: relative;
   top: 30px;
   transform: scale(1.2);
-}
-
-.footer-links {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  background-color: white;
-  font-weight: 500;
-  color: #333;
 }
 
 /* main  */
@@ -207,10 +171,6 @@ nav a {
   background-color: #5a4ac7;
 }
 
-.faq-image {
-  flex: 1;
-}
-
 .faq-image img {
   max-width: 100%;
   height: auto;
@@ -224,13 +184,6 @@ nav a {
   justify-content: space-between;
 }
 
-.text {
-  padding-block: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 /* download and footer */
 
 .download {
@@ -239,7 +192,6 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .download h2 {
@@ -278,7 +230,7 @@ nav a {
   border-radius: 20px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .download-input button:hover {
@@ -296,7 +248,6 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 20px;
 }
@@ -318,7 +269,6 @@ nav a {
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  flex-wrap: wrap;
 }
 
 .footer-bottom span {
