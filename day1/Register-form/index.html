@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="container">
+            <h1 class="heading">Registration Form!</h1>
+            <p class="sub-head"> Fill the registration form to move forward...</p>
+             <div class="userInput">
+                <label>Full Name</label><br>
+                <input type="email" placeholder="Enter your full name">
+            </div>
+
+            <div class="userInput">
+                <label>Email</label><br>
+                <input type="email" placeholder="Enter your email">
+            </div>
+    
+            <div class="userInput">
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter your password">
+            </div>
+            
+            <div class="userInput">
+                <label>Confirm Password</label><br>
+                <input type="password" placeholder="Confirm your password">
+            </div>
+
+            <div class="userInput">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="userCheckbox">
+                <!-- <p>Male</p><br> -->
+                <input type="radio" name="gender" value="Male" > Male
+                <input type="radio" name="gender" value="Female" > Female
+            </div>
+            
+            <div class="userInput">
+                <p>Select your favourite subject:</p>
+                <select> 
+                    <option value="OS">OS</option> 
+                    <option value="DBMS">DBMS</option> 
+                    <option value="ML">ML</option> 
+                    <option value="Compiler">Compiler</option> 
+                    <option value="AI">AI</option> 
+                    <option value="Algorithm">Algorithm</option> 
+                    <option value="Data Structure"> 
+                        Data Structure 
+                    </option> 
+                </select> 
+            </div>
+            
+            <form action="/upload" method="post" class="userInputfile">
+                <label for="fileUpload">Upload a file:</label>
+                <input id="infile" type="file" name="userFile" accept=".pdf,.jpg,.png,.docx"><br>
+            </form>
+            <button class="sub-btn">Submit</button>
+    
+            <div class="forgot">
+                <a href="#"> Forgot your password</a>
+                <p>|</p>
+                <a href="#"> Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.outer-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 94, 232);
+}
+
+.container {
+    /* width: 50vh; */
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+.heading {
+    text-align: center;
+    padding-bottom: 30px;
+    color: blueviolet;
+}
+.sub-head {
+    text-align: center;
+    padding-bottom: 30px;
+    opacity: 50%;
+    color: blueviolet;
+}
+
+
+.container .userInput {
+    padding-bottom: 10px;
+}
+/* .container .userPass {
+    padding-bottom: 10px;
+} */
+
+.userInput input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 1px;
+}
+
+.userInput p {
+    margin-bottom: 5px;
+}
+
+.userCheckbox {
+    margin-bottom: 10px;
+}
+
+#infile {
+    margin-top: 1px;
+    padding: 5px;
+}
+
+.sub-btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color:blueviolet;
+    cursor: pointer;
+    border-width: 1px;
+    transition: 0.3s ease;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.sub-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.forgot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.forgot a {
+    font-size: small;
+    font-weight: 200;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+/* label {
+    padding-bottom: px;
+} */
+
+
+/* .container .u {
+    padding-bottom: 10px;
+} */
