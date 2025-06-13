@@ -212,13 +212,14 @@ body {
     left: 0;
     top: 0;
     z-index: 1000;
-    transition: transform 0.01s ease;
+    transform: translateX(-100%);
+    /* transition: transform 0.01s ease; */
   }
   
-  /* .sidebar.active {
-    transform: translateX(0);
-  } */
-  
+  .sidebar.active {
+    transform: translateX(-10);
+  }
+   
   .main {
     margin-left: 0;
     width: 100%;
@@ -229,7 +230,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .container {
     flex-direction: column;
   }
