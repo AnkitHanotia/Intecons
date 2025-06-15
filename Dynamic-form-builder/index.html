@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section - Form Fields -->
+        <div class="form-fields-section">
+            <h2>Form Fields</h2>
+            <div class="field-buttons">
+                <div class="field-btn" data-type="text">Text Input</div>
+                <div class="field-btn" data-type="number">Number Input</div>
+                <div class="field-btn" data-type="email">Email Input</div>
+                <div class="field-btn" data-type="textarea">Text Area</div>
+                <div class="field-btn" data-type="select">Select Dropdown</div>
+                <div class="field-btn" data-type="checkbox">Checkbox</div>
+                <div class="field-btn" data-type="radio">Radio Button</div>
+            </div>
+        </div>
+
+        <div class="form-preview-section">
+            <h2>Form Preview</h2>
+            <form id="preview-form">
+
+            </form>
+            <button id="generate-json" class="generate-btn">Generate JSON</button>
+        </div>
+
+        <div class="json-section">
+            <h2>Form JSON</h2>
+            <pre id="json-output"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
